@@ -11,7 +11,7 @@ Ext.define('Comment', {
     fields: ['id', 'user_id', 'post_id'],
 
     belongsTo: 'Post'
-});
+}); 
 
 Ext.define('User', {
     extend: 'Ext.data.Model',
